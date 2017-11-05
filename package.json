@@ -17,7 +17,8 @@
     "release:patch": "nwb build && npm version patch && npm publish"
   },
   "dependencies": {
-    "lodash": "^4.13.1"
+    "lodash": "^4.13.1",
+    "fs": "0.0.1-security"
   },
   "peerDependencies": {
     "react": "^15.0 || 0.14.x"
